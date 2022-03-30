@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+
+// 3 principles of redux
+//1. Single source of truth
+// 2.state is read only: immutable
+//3. Changes are made using pure functions, aka reducers
+
+
+
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
     </div>
   );
 }
