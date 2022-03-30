@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import { createStore } from 'redux';
 import {Provider} from 'react-redux'; // shoots data into the heirechy
-import reducerFunc from './reducers'
+import reducerFunc from './reducers/reducers'
 
-const store = createStore()
+const store = createStore(reducerFunc)
 
 ReactDOM.render(
   <React.StrictMode>
